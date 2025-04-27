@@ -1,6 +1,9 @@
-body {
+/* GLOBAL */
+.menu {
 
-    background-color: red;
+    margin-top: 3%;
+
+    font-size: 1.5rem;
 
 }
 
@@ -9,6 +12,23 @@ body {
     list-style-type: none;
     text-align: center;
 
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+
+}
+
+.menu ul li a:hover {
+
+    text-shadow: black 1px 1px;
+
 }
 
 main {
@@ -16,3 +36,180 @@ main {
     background-color: white;
 
 }
+
+footer {
+
+    margin: 2%;
+
+}
+
+address {
+
+    font-size: 1.25rem;
+    max-width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+address a {
+
+    transition: 0.3s ease-in-out;
+
+}
+
+address a:hover {
+
+    transform: scale(1.25);
+
+}
+
+.fa-instagram {
+
+    color: aliceblue;
+
+}
+
+.fa-facebook {
+
+    color: blue;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.fa-youtube {
+
+    color: red;
+
+}
+
+.fa-tiktok {
+
+    color: black;
+
+}
+
+/* INDEX */
+body {
+
+    background-color: #d10e0e;
+
+}
+
+h1 {
+
+    text-align: center;
+    color: rgb(175, 58, 49);
+    font-size: 3.5rem;
+    padding-top: 2%;
+
+}
+
+article, .dernieres_videos {
+
+    max-width: 85%;
+    margin: auto;
+
+}
+
+article div img {
+
+    margin: 2%;
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 50%;
+
+}
+
+.img {
+
+    max-width: 75%;
+    margin: auto;
+    display: flex;
+
+}
+
+.img p {
+
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+
+.videos {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.videos iframe {
+
+    max-width: 30%;
+    height: 10%;
+    border: none;
+    border-radius: 5%;
+    margin-bottom: 2%;
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .menu {
+
+        font-size: 1.25rem;
+
+    }
+
+    .menu ul {
+
+        flex-direction: column;
+
+    }
+
+    .menu ul li {
+
+        margin: 1%;
+
+    }
+
+    h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .img {
+
+        max-width: 90%;
+
+    }
+
+    .img img {
+
+        max-width: 30%;
+        height: 20%;
+
+        align-self: center;
+
+    }
+
+    .videos {
+
+        flex-direction: column;
+
+    }
+
+    .videos iframe {
+
+        max-width: 60%;
+        max-height: 30%;
+
+        align-self: center;
+
+    }
+
+}
+
