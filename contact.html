@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+
+    <!-- Lien Font Awesome -->
+    <script src="https://kit.fontawesome.com/5fbe7d8b53.js" crossorigin="anonymous"></script>
+
+    <!-- Lien CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
+
+<header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="recette.html">Recettes</a></li>
+            <li><a href="conseilAstuce.html">Conseils & Astuces</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <h1>Contact</h1>
+
+    <form action="" method="post">
+
+            <div class="nom-prenom">
+                <div class="input-groupe">
+                    <label for="nom">Nom</label>
+                    <input id="nom" type="text">
+                </div>
+
+                <div class="input-groupe">
+                    <label for="prenom">Prénom</label>
+                    <input id="prenom" type="text">
+                </div>
+            </div>
+
+            <div class="input-groupe groupe">
+                <label for="mail">E-mail</label>
+                <input id="mail" type="text">
+            </div>
+
+            <div class="input-groupe groupe">
+                <label for="objet">Objet</label>
+                <input id="objet" type="text">
+            </div>
+
+            <div class="input-groupe groupe">
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit"> Envoyer </button>
+            </div>
+
+    </form>
+</main>
+
+<footer>
+    <address>
+        <a href="https://www.youtube.com/@ChefMichelDumas"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.facebook.com/chefmicheldumas"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/chefmicheldumas"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@chefmicheldumastiktok?is_copy_url=1&is_from_webapp=v1"><i class="fa-brands fa-tiktok"></i></a>
+    </address>
+</footer>
 
 </body>
 </html>
