@@ -127,28 +127,21 @@ article, .dernieres_videos {
 
 }
 
-article .img img {
-
-    margin: 2%;
-    max-width: 25%;
-    max-height: 25%;
-    border-radius: 50%;
-
-}
-
 .img {
 
     max-width: 90%;
     margin: auto;
     display: flex;
+    flex-direction: column;
 
 }
 
 .img img {
 
-    max-width: 30%;
-    height: 20%;
-
+    margin: 2%;
+    border-radius: 50%;
+    width: 60%;
+    height: 40%;
     align-self: center;
 
 }
@@ -170,11 +163,11 @@ article .img img {
 
 .videos iframe {
 
-    max-width: 60%;
+    max-width: 90%;
     height: 30%;
     border: none;
     border-radius: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     align-self: center;
 
 }
@@ -258,16 +251,17 @@ button:hover {
 .mise-en-forme-recette {
 
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5% auto;
+
 
 }
 
 .recette {
 
-    max-width: 50%;
+    max-width: 80%;
     text-align: center;
-    margin-bottom: 5%;
+    margin: 10% auto;
 
 }
 
@@ -289,7 +283,6 @@ button:hover {
 
     width: 100%;
     height: 100%;
-
     border-radius: 25px;
 
 }
@@ -338,6 +331,13 @@ button:hover {
     .img {
 
         max-width: 75%;
+        flex-direction: row;
+
+    }
+
+    .img img {
+
+        max-width: 30%;
 
     }
 
@@ -371,13 +371,16 @@ button:hover {
     /* Recettes */
     .mise-en-forme-recette {
 
-
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: -5%;
 
     }
 
     .recette {
 
         width: 50%;
+        margin: 5% auto;
 
     }
 
