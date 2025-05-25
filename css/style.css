@@ -185,17 +185,17 @@ label {
     font-weight: bold;
 
 }
-
 .nom-prenom {
 
-    max-width: 65%;
+    width: 65%;
     margin: auto;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
+
 
 .input-groupe {
 
@@ -303,9 +303,18 @@ button:hover {
 
 }
 
+@media screen and (min-width: 400px) {
 
+    .videos iframe {
 
-@media screen and (min-width: 900px) {
+        max-width: 60%;
+        max-height: 30%;
+
+    }
+
+}
+
+@media screen and (min-width: 800px) {
 
     /* GLOBAL */
     .menu {
@@ -361,13 +370,6 @@ button:hover {
 
     }
 
-    .nom-prenom {
-
-        flex-direction: row;
-        max-width: 80%;
-
-    }
-
     /* Recettes */
     .mise-en-forme-recette {
 
@@ -399,4 +401,16 @@ button:hover {
 
 
 }
+
+@media screen and (min-width: 1000px) {
+
+    .nom-prenom {
+
+        flex-direction: row;
+        max-width: 80%;
+
+    }
+
+}
+
 
