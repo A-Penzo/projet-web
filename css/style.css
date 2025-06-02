@@ -303,6 +303,39 @@ button:hover {
 
 }
 
+/* Conseils & Astuces */
+.conseilAstuce {
+
+    margin: auto;
+    max-width: 65%;
+
+}
+
+.conseil, .astuce {
+
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+
+}
+
+.detail {
+
+    margin-top: 0.5%;
+    margin-left: 2.5%;
+
+    color: dimgray;
+    font-size: 0.95rem;
+    font-style: italic;
+
+}
+
+.detail::before {
+
+    content: "→";
+    margin-right: 2.5%;
+
+}
+
 @media screen and (min-width: 400px) {
 
     .videos iframe {
@@ -399,15 +432,37 @@ button:hover {
 
     }
 
-
 }
 
 @media screen and (min-width: 1000px) {
 
+    /* Contact */
     .nom-prenom {
 
         flex-direction: row;
         max-width: 80%;
+
+    }
+
+    /* Conseils & Astuces */
+    .conseilAstuce {
+
+        max-width: 85%;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .conseil {
+
+        margin: 2.5% auto;
+
+    }
+
+    .astuce {
+
+        margin: 2.5% auto;
 
     }
 
